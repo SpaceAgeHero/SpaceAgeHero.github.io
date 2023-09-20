@@ -28,6 +28,16 @@ body {
     width: 100%;
 }
 
+.hero-section {
+    background-image: url("static/img/bg/random-audience.webp");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .section-full {
     width: 100vw;
     height: 100vh;
@@ -36,4 +46,5 @@ body {
 .container-desktop {
     width: 73%;
     height: auto;
+    text-align: center;
 }
